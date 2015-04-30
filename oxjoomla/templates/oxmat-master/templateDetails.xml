@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>oxmat-master</name>
+	<version>1.0</version>
+	<creationDate>23/04/2015</creationDate>
+	<author>Riaz Uddin Masum</author>
+	<authorEmail>masum@officextracts.com</authorEmail>
+	<copyright>Copyright (C) 2015</copyright>
+	<description></description>
+	<files>
+		
+		
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>fonts</folder>
+		<folder>js</folder>
+		<folder>dist</folder>
+		<folder>less</folder>
+		<folder>scripts</folder>
+		
+	</files>
+	<positions>
+	
+		<position>search</position>
+		<position>main-menu</position>
+		<position>banner</position>
+		<position>highlights</position>
+		<position>com-area</position>
+		<position>compare-1</position>
+		<position>compare-2</position>
+		<position>contact</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>copyright</position>
+	</positions>
+</extension>
+

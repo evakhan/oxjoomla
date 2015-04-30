@@ -1,0 +1,254 @@
+body{
+    background-color: #fff;
+}
+
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-white {
+    z-index: 1030;
+    border-bottom: 1px solid #009587;
+}
+
+.nav>li>a {
+    padding: 10px;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 100%;   
+}
+
+.formwork{
+    display:none;
+}
+
+.formview {
+    background: none repeat scroll 0 0 #ffffff;
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width:400px;
+    padding:20px;
+    border: 1px solid #000;
+}
+
+.form-control.col-lg-8.searchbox{
+    width:356px;
+}
+
+.mainbanner {
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    min-height: 380px;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+}
+
+.section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-panel {
+    background-clip: padding-box;
+    border-radius: 2px;
+    margin: 0.5rem 0 1rem;
+    padding: 20px;
+}
+
+.compare {
+    padding: 0;
+}
+
+.compare2 {
+    padding-right: 0;
+}
+
+.brack {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: -7em;
+}
+
+.mdi-action-pageview {
+    font-size: 28px
+
+}
+
+.boxsize {
+    width:109px;
+}
+
+@media all and (max-width: 450px) {
+    .brack {
+        top: 0em;
+    }
+
+    .compare2 {
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .brack {
+        top: -3em;
+    }
+    .compare2 {
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width:991px) and (min-width:751px) {
+    .compare2{
+        padding-left:0;
+    }
+}
+
+@media all and (max-width:750px) and (min-width:300px) {
+    .mobilehide{
+        display:none !important;
+    }
+    .formwork{
+        display:block;
+    }
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+
+.z-depth-1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.alert-primary {
+    color:#fff;
+}
+
+.client {
+    background: #009587;
+    padding: 20px;
+}
+
+.clientlogo {
+    padding:10px;
+}
+
+.botrow {
+    background: #1b5e20;
+    color:#fff;
+}
+
+.hcontact {
+    background:  #2196f3;
+    color: #fff;
+}
+
+
+.form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-control::-webkit-input-placeholder {
+    color:#fff;
+    opacity: 1;
+}
+
+.form-control:moz-placeholder {
+    color:#fff;
+    opacity: 1;
+}
+
+.form-control:ms-input-placeholder {
+    color:#fff;
+    opacity: 1;
+}
+
+
+.hcontact .checkbox input[type="checkbox"]:checked ~ .check::before, .checkbox-default input[type="checkbox"]:checked ~ .check::before {
+    color: #fff;
+}
+
+
+.social {
+    font-size: 2em;
+    color: #fff;
+}
+
+.social a, .social a:hover, .social a:focus {
+    color:#fff;
+}
+
+.footer {
+    background: #263238;
+    padding: 0px;
+    line-height: 2em;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.tablesmall tbody tr td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table.table-bordered.tablesmall a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.alert{
+    color:#000;
+}
+.float-right{
+    float:right;
+    margin-top: -13%;
+}
+
+
+p.merge-top {
+  margin-top: 25px;
+}
+p.oo {
+  margin-top: 20px;
+}
+
+i.mdi-communication-location-on {
+  font-size: 20px;
+}
+.search label {
+  display: none;
+}
+
+.col-md-2.src-right {
+  float: right;
+  padding-top: 0.3%;
+}
+.src-right button.button.btn.btn-primary {
+  padding: 4px 20px;
+}
+.blank {
+display:none;
+}
+
+p.chrono_credits {
+  display: none;
+}
+
+.price-tab .container {
+  padding: 20px !important;
+  margin: 0px -15px !important;
+}
